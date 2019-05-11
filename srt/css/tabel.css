@@ -1,0 +1,34 @@
+/* CSS untuk Exercise 3*/
+
+body
+{
+	background-color: lightgrey;
+	color: #483D8B;
+	font-family: verdana;
+	font-size: 20px;
+
+	padding:50px;
+
+}
+
+h1
+{ 
+	color: #483D8B;
+	font-family: fantasy;
+	font-size: 45px;
+	text-align: center;
+}
+
+
+th
+{
+color: #FFFFFF;
+}
+
+
+table
+{
+ text-align: center;
+}
+ 
+

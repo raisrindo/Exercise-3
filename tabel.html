@@ -1,0 +1,50 @@
+<!-- Exercise 3 : Membuat Tabel dari data Swapi dan ada filternya -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Exercise 3 : Membuat Tabel Data Swapi</title>
+  <link rel="stylesheet" type="text/css" href="srt/css/tabel.css">
+
+</head>
+    
+<body>
+
+
+<h1 title="Judul Exercise"> TABEL DATA DARI SWAPI </h1>
+
+
+<br>
+Search Name : <input id='searchData' onkeyup='cariData()' type='text' placeholder="Search">
+</br>
+<br>
+        
+<table class="table" border ="1" cellpadding="10">
+  <thead>
+    <tr>
+      <th bgcolor= #483D8B >Name</th>
+      <th bgcolor= #483D8B >Rotation Period</th>
+      <th bgcolor= #483D8B >Orbital Period</th>
+      <th bgcolor= #483D8B >Diameter</th>
+      <th bgcolor= #483D8B >Climate</th>
+      <th bgcolor= #483D8B >Gravity</th>
+      <th bgcolor= #483D8B >Terrain</th>
+      <th bgcolor= #483D8B >Surface Water</th>
+      <th bgcolor= #483D8B >Population</th>
+    </tr>
+  </thead>
+
+  <tbody id="theData">
+  </tbody>
+</table>
+
+<script type="text/javascript" src="./srt/js/tabel.js"></script>
+
+
+</body>
+
+
+</html>
+
